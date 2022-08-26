@@ -16,11 +16,10 @@ npx hardhat run --network rinkeby scripts/deploy.js
 npx hardhat verify --network rinkeby DEPLOYED_CONTRACT_ADDRESS
 ```
 
-npx hardhat verify --network rinkeby 0x4e639f28f3312035a53882735d481c810f251a67
+npx hardhat verify --network rinkeby 0x4e639f28f3...
 
-0x4e639f28f3312035a53882735d481c810f251a67
+npx hardhat verify --network mainNet 0x4e639f28f33...
 
-npx hardhat verify --network mainNet 0x4e639f28f3312035a53882735d481c810f251a67
+npx hardhat verify --network rinkeby 0x79F565CE...
 
-npx hardhat verify --network rinkeby 0x79F565CEd03495230C449b2b32130929B49e1301
 # erc1155
